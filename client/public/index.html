@@ -1,0 +1,42 @@
+<!-- //declaring the HTML doctype for the html page -->
+<!DOCTYPE html>
+<!-- //saying that this html page will be formatted in English -->
+<html lang="en">
+  <!-- //the head tag stores the meta data as well as the links that are needed for
+  the html to be displayed properly on the specific viewer -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <!-- //manifest.json provides contains a bunch of metadata attributes about this
+    application -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- //this is a link to the icon in the favicon.ico file located in the same
+    public folder -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- //these following links are cdn links to bootstraps which will are needed to
+    have the UI displaying correctly -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/materia/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <title>React Google Books Search</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!-- //this single div in the body is important because this is where the react
+    application will appear and it is contained between the div -->
+    <div id="root"></div>
+  </body>
+</html>
