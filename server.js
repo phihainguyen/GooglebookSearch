@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+//if the node environment is production then its letting Heroku know that it would be run in production mode
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
