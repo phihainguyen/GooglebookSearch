@@ -23,7 +23,7 @@ app.use(routes);
 //First, we need to define a connection. If your app uses only one database, you should use mongoose.connect. If you need to create additional connections, use mongoose.createConnection. Both connect and createConnection take a mongodb:// URI, or the parameters localhost options.
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb://phihai93:<Phihai911@ds229701.mlab.com:29701/heroku_6g8n317m",
+    "mongodb://phihai93:Phihai911@ds229701.mlab.com:29701/heroku_6g8n317m",
   {
     useCreateIndex: true,
     useNewUrlParser: true
